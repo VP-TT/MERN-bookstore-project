@@ -1,7 +1,7 @@
 # 📚 MERN Bookstore Project
 
 A full-stack **Bookstore web application** built using the **MERN stack**
-(MongoDB, Express.js, React, Node.js).
+(**MongoDB, Express.js, React, Node.js**).
 
 This project demonstrates **end-to-end CRUD operations**, **RESTful API design**, and a **modern React frontend** connected to a scalable backend architecture.
 
@@ -9,41 +9,41 @@ This project demonstrates **end-to-end CRUD operations**, **RESTful API design**
 
 ## 🚀 Features
 
-- 📖 View a list of available books
-- ➕ Add new books to the collection
-- ✏️ Update existing book details
-- ❌ Delete books
-- 🌐 RESTful API for backend operations
-- ⚡ Fast and responsive frontend powered by React
-- 🗄️ MongoDB for persistent data storage
+- 📖 View a list of available books  
+- ➕ Add new books to the collection  
+- ✏️ Update existing book details  
+- ❌ Delete books  
+- 🌐 RESTful API for backend operations  
+- ⚡ Fast and responsive frontend powered by React  
+- 🗄️ MongoDB for persistent data storage  
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React
-- JavaScript
-- HTML & CSS
-- Vite
+- React  
+- JavaScript  
+- HTML & CSS  
+- Vite  
 
 ### Backend
-- Node.js
-- Express.js
+- Node.js  
+- Express.js  
 
 ### Database
-- MongoDB
+- MongoDB  
 
 ### Tools & Utilities
-- npm
-- Concurrently (optional)
+- npm  
+- Concurrently (optional)  
 
 ---
 
 ## 📂 Project Structure
 
+```text
 bookstore-project/
-│
 ├── backend/
 │   ├── models/
 │   ├── routes/
@@ -53,80 +53,94 @@ bookstore-project/
 │
 ├── frontend/
 │   ├── src/
-│   ├── components/
-│   ├── pages/
+│   │   ├── components/
+│   │   └── pages/
 │   ├── main.jsx
 │   └── package.json
 │
 └── README.md
+```
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Getting Started
 
-### 1️⃣ Clone the repository
+Clone the repository:
 
+```bash
 git clone https://github.com/VP-TT/MERN-bookstore-project.git
+```
 
----
+Navigate to the project directory:
 
-### 2️⃣ Install backend dependencies
+```bash
+cd bookstore-project
+```
 
-cd bookstore-project/backend  
+Install backend dependencies:
+
+```bash
+cd backend
 npm install
+```
 
----
+Install frontend dependencies:
 
-### 3️⃣ Install frontend dependencies
-
-cd ../frontend  
+```bash
+cd ../frontend
 npm install
+```
 
----
+Set up environment variables.
 
-### 4️⃣ Environment Variables
+Create a `.env` file inside the **backend** directory and add:
 
-Create a `.env` file inside the **backend** directory by copying the example file:
-
-cp .env.example .env
-
-Fill in the required values:
-- MongoDB connection string
-- Server port
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+```
 
 ---
 
 ## ▶️ Running the Application
 
-### Start Backend
+Start the backend server:
 
-cd backend  
+```bash
+cd backend
 npm run dev
+```
 
----
+Start the frontend development server:
 
-### Start Frontend
-
-cd frontend  
+```bash
+cd frontend
 npm run dev
+```
 
----
+Run both frontend and backend concurrently (optional):
 
-### Run Both Concurrently (Optional)
-
-If configured using concurrently:
-
+```bash
 npm run dev:full
+```
 
 ---
 
 ## 📌 Usage
 
-- Open the frontend in your browser:
-  http://localhost:5173
-- Perform CRUD operations on books
-- Backend API typically runs on:
-  http://localhost:5000
+Open the frontend in your browser:
+
+```text
+http://localhost:5173
+```
+
+Backend API runs at:
+
+```text
+http://localhost:5000
+```
+
+Use the application to perform CRUD operations on books.
 
 ---
 
@@ -134,21 +148,21 @@ npm run dev:full
 
 This project helped reinforce:
 
-- Full-stack application architecture
-- RESTful API design
-- React component-based development
-- Backend–frontend integration
-- MongoDB schema modeling
+- Full-stack application architecture  
+- RESTful API design  
+- React component-based development  
+- Backend–frontend integration  
+- MongoDB schema modeling  
 
 ---
 
 ## 🔮 Future Improvements
 
-- 🔐 User authentication & authorization
-- 🛒 Shopping cart and checkout system
-- 📦 Book categories and search functionality
-- 🌍 Deployment using Docker or cloud platforms
-- 🎨 Improved UI/UX styling
+- 🔐 User authentication & authorization  
+- 🛒 Shopping cart and checkout system  
+- 📦 Book categories and search functionality  
+- 🌍 Deployment using Docker or cloud platforms  
+- 🎨 Improved UI/UX styling  
 
 ---
 
@@ -157,7 +171,7 @@ This project helped reinforce:
 **Vishnu Priya Taduka**  
 Computer Science Undergraduate | MERN Stack Developer  
 
-GitHub: https://github.com/VP-TT
+GitHub: https://github.com/VP-TT  
 
 ---
 
