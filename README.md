@@ -46,20 +46,31 @@ This project demonstrates **end-to-end CRUD operations**, **RESTful API design**
 bookstore-project/
 ├── backend/
 │   ├── models/
+│   ├── node_modules/
 │   ├── routes/
-│   ├── controllers/
-│   ├── server.js
+│   ├── .env.example
+│   ├── README.md
+│   ├── app functions.txt
+│   ├── index.js
+│   ├── package-lock.json
 │   └── package.json
 │
 ├── frontend/
+│   ├── public/
 │   ├── src/
-│   │   ├── components/
-│   │   └── pages/
-│   ├── main.jsx
-│   └── package.json
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
 │
+├── .gitignore
 └── README.md
-```
+
 
 ---
 
